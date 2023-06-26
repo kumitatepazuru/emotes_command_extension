@@ -29,8 +29,8 @@ configurations {
 }
 
 dependencies {
-    compileOnly spigot('1.18.2') //Target Spigot 1.16.5
-    compileOnly "dev.jorel:commandapi-core:${project.command_api}"
+    compileOnly spigot('1.20.1') //Target Spigot 1.16.5
+    compileOnly "dev.jorel:commandapi-bukkit-core:${project.command_api}"
     compileOnly "io.github.kosmx.emotes:emotesServer:${project.emotecraft}"
     compileOnly "com.mojang:brigadier:${project.brigadier}"
 
